@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cruises</title>
+    <style>
+      .cruises {
+        padding: 3rem 2rem;
+        background-color: #f0f8ff;
+        text-align: center;
+      }
+
+      .cruises h2 {
+        font-size: 2.5rem;
+        color: #2c3e50;
+        margin-bottom: 1rem;
+      }
+
+      .cruises p {
+        font-size: 1.1rem;
+        color: #34495e;
+        margin-bottom: 2rem;
+      }
+
+      .cruise-cards {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+
+      .cruise-card {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 280px;
+        transition: transform 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .cruise-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .cruise-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+      }
+
+      .cruise-card h3 {
+        margin: 1rem 0 0.5rem;
+        color: #3498db;
+      }
+
+      .cruise-card p {
+        padding: 0 1rem;
+        color: #555;
+      }
+
+      .cruise-card a {
+        display: inline-block;
+        margin: 1rem;
+        padding: 0.6rem 1.2rem;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+
+      .cruise-card a:hover {
+        background-color: #2c80b4;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- -----Header -->
+    <header>
+      <a href="./index_.html"
+        ><img src="./../IMAGES/yt_/2.png" alt="" width="100px"
+      /></a>
+    </header>
+
+    <section class="cruises">
+      <h2>Explore the World on a Cruise</h2>
+      <p>
+        From ocean giants to cozy riverboats, choose the cruise that suits your
+        adventure style.
+      </p>
+      <div class="cruise-cards">
+        <div class="cruise-card">
+          <img
+            src="https://images.pexels.com/photos/167676/pexels-photo-167676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="Ocean Cruise"
+          />
+          <h3>Ocean Cruise</h3>
+          <p>
+            Journey across the vast seas with world-class entertainment and
+            dining.
+          </p>
+          <a href="#">Book Now</a>
+        </div>
+        <div class="cruise-card">
+          <img src="./../IMAGES/yt_/river_cruises.png" alt="River Cruise" />
+          <h3>River Cruise</h3>
+          <p>
+            Glide through scenic rivers and explore charming inland cities up
+            close.
+          </p>
+          <a href="#">Book Now</a>
+        </div>
+        <div class="cruise-card">
+          <img
+            src="https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="Luxury Cruise"
+          />
+          <h3>Luxury Cruise</h3>
+          <p>
+            Indulge in upscale experiences and five-star services on elegant
+            vessels.
+          </p>
+          <a href="#">Book Now</a>
+        </div>
+        <div class="cruise-card">
+          <img
+            src="https://images.pexels.com/photos/210552/pexels-photo-210552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="Adventure Cruise"
+          />
+          <h3>Adventure Cruise</h3>
+          <p>
+            Explore remote destinations with thrilling shore excursions and
+            activities.
+          </p>
+          <a href="#">Book Now</a>
+        </div>
+        <div class="cruise-card">
+          <img
+            src="https://images.pexels.com/photos/321497/pexels-photo-321497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="Family Cruise"
+          />
+          <h3>Family Cruise</h3>
+          <p>
+            Enjoy activities for all ages, from kids’ clubs to family-friendly
+            shows.
+          </p>
+          <a href="#">Book Now</a>
+        </div>
+        <div class="cruise-card">
+          <img
+            src="https://images.pexels.com/photos/1024996/pexels-photo-1024996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="Romantic Cruise"
+          />
+          <h3>Romantic Cruise</h3>
+          <p>
+            Perfect for couples—sunset dinners, spa retreats, and quiet
+            getaways.
+          </p>
+          <a href="#">Book Now</a>
+        </div>
+        <div class="cruise-card">
+          <img
+            src="https://images.pexels.com/photos/1646312/pexels-photo-1646312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="Expedition Cruise"
+          />
+          <h3>Expedition Cruise</h3>
+          <p>
+            Travel to the Arctic, Antarctica, and beyond with expert-led tours.
+          </p>
+          <a href="#">Book Now</a>
+        </div>
+        <div class="cruise-card">
+          <img
+            src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="Island Hopper"
+          />
+          <h3>Island Hopper</h3>
+          <p>
+            Hop across tropical islands with beach stops and vibrant coastal
+            towns.
+          </p>
+          <a href="#">Book Now</a>
+        </div>
+        <div class="cruise-card">
+          <img
+            src="https://images.pexels.com/photos/1666026/pexels-photo-1666026.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="Theme Cruise"
+          />
+          <h3>Theme Cruise</h3>
+          <p>
+            Enjoy cruises built around music, fitness, food, or fan experiences.
+          </p>
+          <a href="#">Book Now</a>
+        </div>
+        <div class="cruise-card">
+          <img
+            src="https://images.pexels.com/photos/3732690/pexels-photo-3732690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="Weekend Getaway"
+          />
+          <h3>Weekend Getaway</h3>
+          <p>
+            Short but sweet trips for a quick escape from the daily routine.
+          </p>
+          <a href="#">Book Now</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
